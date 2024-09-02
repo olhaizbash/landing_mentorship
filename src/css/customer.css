@@ -1,0 +1,9 @@
+.section-customer {
+  margin-top: 32px;
+}
+
+.customer-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
