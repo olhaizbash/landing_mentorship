@@ -1,0 +1,161 @@
+.reviews-wrapper {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.rewiews-img {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 350px 5px 350px 350px;
+  background: #ced5f4;
+  overflow: hidden;
+}
+
+.rewiews-img-wrapper {
+  position: relative;
+}
+
+.reviews-main-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 330px;
+  height: 327px;
+  background: url(../img/bohemian-man.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon-reviews {
+  position: absolute;
+  top: 10px;
+  left: 58px;
+}
+
+.icon-circles {
+  position: absolute;
+  bottom: 56px;
+  left: 0;
+}
+
+.reviews__info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: flex-start;
+}
+
+.reviews__info-title {
+  color: #323232;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.4px;
+}
+
+.reviews__info-p {
+  color: #868686;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.28px;
+}
+
+.reviews__stars-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.icon-span {
+  display: block;
+  color: #323232;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.4px;
+}
+
+.reviews-text {
+  color: #383838;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.28px;
+  width: 730px;
+  height: 99px;
+}
+
+.reviews__btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatars__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: -10px;
+}
+
+.avatars__list-item {
+  width: 46px;
+  height: 46px;
+  border: 3px solid #fea06b;
+  background: url(../img/sean-kong.png);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -25px;
+}
+
+.avatars__list-item:nth-child(2) {
+  background: url(../img/male-student.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.avatars__list-item:nth-child(3) {
+  background: url(../img/johm-kan.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.avatars__list-item:nth-child(4) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a9a3e9;
+  border: 3px solid #a9a3e9;
+}
+
+.avatars__list-item span {
+  color: #4238af;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.28px;
+}

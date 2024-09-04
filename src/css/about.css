@@ -64,6 +64,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 14px;
+  height: 17px;
 }
 
 .question-title-wrapper {
@@ -97,7 +98,7 @@
   color: #ff5c00;
 }
 
-.question-number-wrapper p {
+.question-number-wrapper span {
   font-family: 'Open Sans';
   font-size: 16px;
   font-style: normal;
@@ -131,8 +132,7 @@
   width: 635px;
   height: 433px;
   border-radius: 20px;
-  background: url(../img/christina-wocintechchat-com-YVT21p6pO_g-unsplash\ 1.png)
-    lightgray 50% / cover no-repeat;
+  background: url(../img/girlWithLaptop.png) lightgray 50% / cover no-repeat;
 }
 
 .player-icon {

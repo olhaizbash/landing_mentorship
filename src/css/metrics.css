@@ -1,0 +1,44 @@
+.section-metrics {
+  margin-top: 153px;
+}
+
+.metrics__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 137px;
+  border-radius: 30px;
+  background: #ced5f4;
+  padding: 74px 115px;
+}
+
+.metrics__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.metrics__list-span {
+  display: block;
+  color: #584ec6;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 125% */
+  letter-spacing: 2px;
+}
+
+.metrics__list-text {
+  color: #fff;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
