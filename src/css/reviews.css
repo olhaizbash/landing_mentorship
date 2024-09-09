@@ -1,5 +1,6 @@
 .reviews-wrapper {
   display: flex;
+  flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: center;
@@ -101,8 +102,7 @@
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.28px;
-  width: 730px;
-  height: 99px;
+  width: 320px;
 }
 
 .reviews__btn-wrapper {
@@ -158,4 +158,17 @@
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.28px;
+}
+
+@media (min-width: 768px) {
+  .reviews-wrapper {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1440px) {
+  .reviews-text {
+    width: 730px;
+    height: 99px;
+  }
 }

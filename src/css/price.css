@@ -4,6 +4,7 @@
 
 .pricing__list {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 65px;
@@ -106,4 +107,10 @@
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.28px;
+}
+
+@media (min-width: 1440px) {
+  .pricing__list {
+    flex-direction: row;
+  }
 }

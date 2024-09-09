@@ -26,10 +26,10 @@
     padding-right: 60px;
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1440px) {
     padding-left: 165px;
     padding-right: 165px;
-    min-width: 1280px;
+    min-width: 1110px;
   }
 }
 

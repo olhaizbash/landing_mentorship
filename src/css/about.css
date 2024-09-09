@@ -21,6 +21,7 @@
 
 .apply-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
@@ -33,7 +34,7 @@
 }
 
 .about-title {
-  width: 393px;
+  width: 320px;
   height: 94px;
   flex-shrink: 0;
   color: #353434;
@@ -56,7 +57,7 @@
 .faq-list-item {
   border-radius: 8px;
   background: #f5f7ff;
-  width: 435px;
+  width: 320px;
 }
 
 .faq-question {
@@ -129,8 +130,8 @@
 
 .apply-image-wrapper {
   position: relative;
-  width: 635px;
-  height: 433px;
+  width: 320px;
+  height: 210px;
   border-radius: 20px;
   background: url(../img/girlWithLaptop.png) lightgray 50% / cover no-repeat;
 }
@@ -167,5 +168,38 @@
   to {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+@media (min-width: 768px) {
+  .about-title {
+    width: 393px;
+  }
+
+  .apply-wrapper {
+    flex-direction: row;
+  }
+
+  .faq-list-item {
+    border-radius: 8px;
+    background: #f5f7ff;
+    width: 350px;
+  }
+  .apply-image-wrapper {
+    width: 335px;
+    height: 319px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .apply-image-wrapper {
+    width: 635px;
+    height: 433px;
+  }
+
+  .faq-list-item {
+    border-radius: 8px;
+    background: #f5f7ff;
+    width: 435px;
   }
 }

@@ -4,6 +4,18 @@
 
 .customer-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+
+@media (min-width: 1440px) {
+  .customer-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+  }
 }
