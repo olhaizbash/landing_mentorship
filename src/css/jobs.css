@@ -70,13 +70,13 @@
   height: 75px;
   border: 3px solid #fea06b;
   border-radius: 50%;
-  background: url(../img/male-student.png);
+  background: url(../assets/male-student.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .jobs__list-item:nth-child(2) .freelancer-avatar {
-  background: url(../img/nathan.png);
+  background: url(../assets/nathan.png);
 }
 
 .freelancer__info {

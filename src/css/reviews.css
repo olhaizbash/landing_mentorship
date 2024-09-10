@@ -32,7 +32,7 @@
   right: 0;
   width: 330px;
   height: 327px;
-  background: url(../img/bohemian-man.png);
+  background: url(../assets/bohemian-man.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -122,7 +122,7 @@
   width: 46px;
   height: 46px;
   border: 3px solid #fea06b;
-  background: url(../img/sean-kong.png);
+  background: url(../assets/sean-kong.png);
   border-radius: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,13 +130,13 @@
 }
 
 .avatars__list-item:nth-child(2) {
-  background: url(../img/male-student.png);
+  background: url(../assets/male-student.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .avatars__list-item:nth-child(3) {
-  background: url(../img/johm-kan.png);
+  background: url(../assets/johm-kan.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

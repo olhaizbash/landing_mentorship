@@ -133,7 +133,7 @@
   width: 320px;
   height: 210px;
   border-radius: 20px;
-  background: url(../img/girlWithLaptop.png) lightgray 50% / cover no-repeat;
+  background: url(../assets/girlWithLaptop.png) lightgray 50% / cover no-repeat;
 }
 
 .player-icon {
